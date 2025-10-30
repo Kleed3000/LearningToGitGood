@@ -1,5 +1,5 @@
 body {
-    color: red;
+    color: purple;
 }
 
 h2 {
@@ -7,5 +7,8 @@ h2 {
 }
 
 h1 {
-    color: yellow
+    color: yellow;
+}
+p {
+    font-size: medium;
 }
