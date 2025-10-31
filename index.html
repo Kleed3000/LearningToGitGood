@@ -1,16 +1,22 @@
 
-<html>
-    <head>
-        <title>A Simple Webpage</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-	<h1>hi</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Simple Webpage</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <h1>Welcome</h1>
         <p>
-            Enterrrrrr your name? <input id="inName" maxlength="15">
-            <button id="btnSubmit">Submit</button>
+            <label for="inName">Enter your name:</label>
+            <input id="inName" maxlength="15" type="text" placeholder="Jane Doe">
+            <button id="btnSubmit" type="button">Submit</button>
         </p>
-        <h2 id="hellllllo"></h2>
-        <script src="./index.js"></script>
-    </body>
+        <h2 id="hello"></h2>
+    </main>
+    <script src="./index.js"></script>
+</body>
 </html>
